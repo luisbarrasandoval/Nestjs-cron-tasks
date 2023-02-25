@@ -30,6 +30,10 @@
 
 ```bash
 $ yarn install
+
+$ npx mikro-orm database:create
+
+$ npx mikro-orm migration:up
 ```
 
 ## Running the app
