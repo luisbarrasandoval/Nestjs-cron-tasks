@@ -51,4 +51,4 @@ jobs:
 
       - name: Update ECS service
         run: |
-          aws ecs update-service --cluster taskapi --service task_service --task-definition task --force-new-deployment
+          aws ecs update-service --cluster taskapi --service task_service --task-definition task:2 --force-new-deployment
